@@ -3,15 +3,13 @@ int index = 0;
 
 void setup() {
   size(400, 400);
-  
   stroke(255);
   frameRate(25);
   lines = loadStrings("positions.txt");
-  //println(lines.length);
 }
 
 void draw() {
-  noLoop();
+  //noLoop();
   background(0);
   //for (int i = 0; i < lines.length; i++) {
   for (int i = 0; i < width/10; i++) {
